@@ -1,0 +1,47 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: calc(.5rem + 1vmin);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.rounded-sm {
+    border-radius: 5px;
+}
+
+.btn.rounded-md {
+    border-radius: 10px;
+}
+
+.btn.rounded-lg {
+    border-radius: 15px;
+}
+
+.btn.rounded-full {
+    border-radius: 50%;
+}
+
+.btn.text-center {
+    text-align: center;
+}
+
+.btn.pad-default {
+    padding: 5px;
+}
+
+.btn.border {
+    border: 1px solid #1e1e1e;
+}
+
+.btn.transparent {
+    background-color: transparent;
+}
+
+.btn.primary {
+    background-color: rgb(219, 148, 148);
+    color: rgb(255, 255, 255);
+}
