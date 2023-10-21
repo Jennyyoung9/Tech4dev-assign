@@ -11,10 +11,10 @@ const SignUp = () => {
             </div>
             <div className="right">
                 <form action="" method="POST">
-                    <input type="text" name="full-name" placeholder="Full name" className="text-box" />
-                    <input type="text" name="username" placeholder="Username" className="text-box" />
-                    <input type="email" name="email" placeholder="Enter your email" className="text-box" />
-                    <input type="password" name="password" minLength="8" placeholder="********" className="text-box" />
+                    <input type="text" name="full-name" placeholder="Full name" className="text-box" required />
+                    <input type="text" name="username" placeholder="Username" className="text-box" required/>
+                    <input type="email" name="email" placeholder="Enter your email" className="text-box" required/>
+                    <input type="password" name="password" minLength="8" placeholder="********" className="text-box"required/>
                     <div>
                         <input type="checkbox" name="terms" id="terms" />
                         <label htmlFor="terms">I agree to terms and condition</label>

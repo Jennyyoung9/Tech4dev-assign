@@ -11,14 +11,14 @@ const Login = () => {
             </div>
             <div className="right">
                 <form action="" method="POST">
-                    <input type="email" name="email" placeholder="Enter your email" className="text-box" />
-                    <input type="password" name="password" minLength="8" placeholder="********" className="text-box" />
+                    <input type="email" name="email" placeholder="Enter your email" className="text-box" required/>
+                    <input type="password" name="password" minLength="8" placeholder="********" className="text-box" required/>
                     <div>
                         <input type="checkbox" name="terms" id="terms" />
                         <label htmlFor="terms">I agree to terms and condition</label>
                     </div>
                     <Button type="submit" className="pad-default primary rounded-sm login-button">
-                        Sign Up
+                        Login
                     </Button>
                 </form>
                 <p>Already have an account 

@@ -4,7 +4,7 @@ import "./Button.css";
 const Button = ({children,  type, className}) => {
     return(
         <button type = {type ?? "button"}
-        className={`btn ${className}`}>
+        className={`button ${className}`}>
             {children} 
         </button>
     );
