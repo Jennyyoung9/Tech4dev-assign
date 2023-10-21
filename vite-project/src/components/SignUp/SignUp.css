@@ -7,13 +7,10 @@
 }
 
 .sign-up-container .left {
-    width: 40vw;
+    width: 100%;
     object-fit: cover;
-    height: 100vh;
-    overflow-y: hidden;
-    /* position: fixed;
-    left: 0;
-    top: 0; */
+    height: 700px;
+    overflow: hidden;
 }
 
 .sign-up-container .left img {

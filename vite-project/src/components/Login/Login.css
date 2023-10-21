@@ -11,9 +11,6 @@
     object-fit: cover;
     height: 700px;
     overflow: hidden;
-    /* position: fixed;
-    left: 0;
-    top: 0; */
 }
 
 .login-container .left img{
